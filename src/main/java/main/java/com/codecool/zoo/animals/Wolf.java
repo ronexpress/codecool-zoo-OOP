@@ -10,7 +10,7 @@ public class Wolf extends Animals {
         if( isDead() ){ return; }
         if(food.equals("hús"))weight+=3;
         if(food.equals("gyümölcs"))weight--;
-        if(food.equals("zöldséd"))weight--;
+        if(food.equals("zöldség"))weight--;
         checkAlive(6);
     }
 }

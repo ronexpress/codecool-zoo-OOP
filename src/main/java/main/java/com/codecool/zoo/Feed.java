@@ -17,6 +17,7 @@ public class Feed {
     }
 
     public void feeding(String food){
+        System.out.println(food);
         for(Animals animal : animals){
             animal.feed(food);
         }
@@ -26,6 +27,7 @@ public class Feed {
         for(Animals animal : animals){
             System.out.println(animal.getName()+" : "+ (animal.isDead()?"Dead :(":animal.getWeight()+"kg") );
         }
+        System.out.println();
     }
 
 }

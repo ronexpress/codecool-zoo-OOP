@@ -13,10 +13,15 @@ public class Main {
     public static void main(String[] args) {
         Feed feed = new Feed();
         createAnimals(feed);
+        feed.printWhoIsAlive();
         feed.feeding("hús");
+        feed.printWhoIsAlive();
         feed.feeding("zöldség");
+        feed.printWhoIsAlive();
         feed.feeding("hús");
+        feed.printWhoIsAlive();
         feed.feeding("gyümölcs");
+        feed.printWhoIsAlive();
         feed.feeding("hús");
         feed.printWhoIsAlive();
     }

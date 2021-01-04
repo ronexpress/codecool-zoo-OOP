@@ -10,7 +10,7 @@ public class Bear extends Animals {
         if( isDead() ){ return; }
         if(food.equals("hús"))weight++;
         if(food.equals("gyümölcs"))weight++;
-        if(food.equals("zöldséd"))weight--;
+        if(food.equals("zöldség"))weight--;
         checkAlive(10);
     }
 }
